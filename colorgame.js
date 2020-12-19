@@ -113,8 +113,8 @@ function randomColor(){
 }
 
 function interval() {
-	myvar1 = setInterval(reset,4000)
-	myvar2 = setInterval(function(){messageDisplay.textContent = "next time faster"	},4000)
+	myvar1 = setInterval(reset,10000)
+	myvar2 = setInterval(function(){messageDisplay.textContent = "next time faster"	},10000)
 	
 }
 
